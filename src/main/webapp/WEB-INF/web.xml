@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>Project</display-name>
+	
+	
+	<servlet>
+		<servlet-name>RegistrationController</servlet-name>
+		<servlet-class>com.ty.registration.RegistrationController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RegistrationController</servlet-name>
+		<url-pattern>/RegistrationController</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+	<servlet>
+		<servlet-name>LoginController</servlet-name>
+		<servlet-class>com.ty.userLogin.LoginController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoginController</servlet-name>
+		<url-pattern>/LoginController</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>NotiController</servlet-name>
+		<servlet-class>com.ty.notification.NotiController</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>NotiController</servlet-name>
+		<url-pattern>/NotiController</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+
+	<servlet>
+		<servlet-name>RequestController</servlet-name>
+		<servlet-class>com.ty.clientRequest.RequestController</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RequestController</servlet-name>
+		<url-pattern>/RequestController</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+	<servlet>
+		<servlet-name>Admin_history</servlet-name>
+		<servlet-class>com.ty.clientsHistory.Admin_history</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Admin_history</servlet-name>
+		<url-pattern>/Admin_history</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+	<servlet>
+		<servlet-name>Sample_details</servlet-name>
+		<servlet-class>com.ty.sampleDetails.Sample_details</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Sample_details</servlet-name>
+		<url-pattern>/Sample_details</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+	<servlet>
+		<servlet-name>Sample_reject</servlet-name>
+		<servlet-class>com.ty.notification.Sample_reject</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Sample_reject</servlet-name>
+		<url-pattern>/Sample_reject</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>Client_view</servlet-name>
+		<url-pattern>/Client_view</url-pattern>
+
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>com.ty.clientGetsSample.Client_view</servlet-name>
+		<url-pattern>/Client_view2</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+	<servlet>
+		<servlet-name>ChallanServlet</servlet-name>
+		<servlet-class>com.ty.clientMakesChallan.ChallanServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ChallanServlet</servlet-name>
+		<url-pattern>/ChallanServlet2</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>Admin_sampleController</servlet-name>
+		<url-pattern>/Admin_sampleController</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>com.ty.adminSendsSample.Admin_sampleController</servlet-name>
+		<url-pattern>/Admin_sampleController2</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>Admin_challan</servlet-name>
+		<url-pattern>/Admin_challan2</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Admin_challan</servlet-name>
+		<servlet-class>com.ty.oneClientsChallan.Admin_challan</servlet-class>
+
+	</servlet>
+	
+	
+	
+	
+
+
+<servlet>
+		<servlet-name>Client_history</servlet-name>
+		<servlet-class>com.ty.adminsHistory.Client_history</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Client_history</servlet-name>
+		<url-pattern>/Client_history</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>Admin_all_challanview</servlet-name>
+		<url-pattern>/Admin_all_challanview2</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Admin_all_challanview</servlet-name>
+		<servlet-class>com.ty.adminSeeAllChallan.Admin_all_challanview</servlet-class>
+
+	</servlet>
+	
+	
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>Before_challan</servlet-name>
+		<url-pattern>/Before_challan</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Before_challan</servlet-name>
+		<servlet-class>Before_challan</servlet-class>
+
+	</servlet>
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>Otp_verifying</servlet-name>
+		<url-pattern>/Otp_verifying</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Otp_verifying</servlet-name>
+		<servlet-class>Otp_verifying</servlet-class>
+
+	</servlet>
+
+
+
+</web-app>
+    
+    
